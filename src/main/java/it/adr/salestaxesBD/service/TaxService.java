@@ -8,5 +8,4 @@ import it.adr.salestaxesBD.model.Item;
 public interface TaxService {
 
 	BigDecimal calculateTax(Item item);
-
 }

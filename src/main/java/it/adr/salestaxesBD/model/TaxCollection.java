@@ -1,7 +1,7 @@
 package it.adr.salestaxesBD.model;
 
 import java.math.BigDecimal;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -11,9 +11,10 @@ public class TaxCollection {
 
 	/**
 	 * Constructor
+	 * 
 	 */
 	public TaxCollection () {
-		taxList = new LinkedList<Tax>();
+		taxList = new ArrayList<Tax>();
 	}
 	
 	/**
