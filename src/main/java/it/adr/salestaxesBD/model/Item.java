@@ -75,7 +75,6 @@ public class Item {
 	}
 
 	public BigDecimal getTotalPrice() {
-		// TODO Auto-generated method stub
 	    return getPrice().add(getTax()); 
 	}
 
