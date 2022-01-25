@@ -26,7 +26,7 @@ public class Start
     
     
     private static void inputOne() {
-		Item book = new Item(2,"book", ItemType.BOOK, new BigDecimal("12.49"),tc, false);
+		Item book = new Item(1,"book", ItemType.BOOK, new BigDecimal("12.49"),tc, false);
 		Item musicCD = new Item(1, "music CD", ItemType.MUSIC, new BigDecimal("14.99"), tc, false);
 		Item chocolateBar = new Item(1, "chocolate bar", ItemType.FOOD, new BigDecimal("0.85"), tc, false);
 		receipt(book, musicCD, chocolateBar);
