@@ -16,6 +16,10 @@ public class TaxCollection {
 		taxList = new LinkedList<Tax>();
 	}
 	
+	/**
+	 * add a Tax to the List
+	 * 
+	 */
 	public void addTax(Tax tax) {
 		this.taxList.add(tax);
 	}
@@ -31,5 +35,4 @@ public class TaxCollection {
 		}
 		return totalTax;
 	}
-
 }
